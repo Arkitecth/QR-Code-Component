@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1685467222274,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1685467464808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,5 @@\n \n # Avoid your project being littered with annoying .DS_Store files!\n .DS_Store\n .prettierignore\n-README-template.md\n\\ No newline at end of file\n+.README-template.md\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1685467222274,
