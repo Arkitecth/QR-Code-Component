@@ -1,0 +1,278 @@
+{
+    "sourceFile": "css/styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 65,
+            "patches": [
+                {
+                    "date": 1685465483291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1685465673478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,8 @@\n * {\n     margin: 0;\n-}\n\\ No newline at end of file\n+    padding: 0;\n+}\n+\n+.card {\n+    \n+}\n"
+                },
+                {
+                    "date": 1685465704796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n     margin: 0;\n     padding: 0;\n }\n \n-.card {\n+.card img {\n     \n-}\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685465712899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n     padding: 0;\n }\n \n .card img {\n-    \n+    width: 288px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685465719068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,9 @@\n     margin: 0;\n     padding: 0;\n }\n \n+\n .card img {\n     width: 288px;\n+    height: 288px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685465726403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,11 @@\n     margin: 0;\n     padding: 0;\n }\n \n+.card {\n+    text-align: center;\n+}\n \n .card img {\n     width: 288px;\n     height: 288px;\n"
+                },
+                {
+                    "date": 1685465775189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n }\n \n .card {\n     text-align: center;\n+    margin: 0 auto;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685465815999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n }\n \n .card {\n     text-align: center;\n-    margin: 0 auto;\n+    margin: auto auto;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685465823583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n }\n \n .card {\n     text-align: center;\n-    margin: auto auto;\n+    margin: 0 auto;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685465831651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n \n .card {\n     text-align: center;\n     margin: 0 auto;\n+    margin-top: 50%;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685465839519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n .card {\n     text-align: center;\n     margin: 0 auto;\n-    margin-top: 50%;\n+    margin-top: 40%;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685465850888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n .card {\n     text-align: center;\n     margin: 0 auto;\n-    margin-top: 40%;\n+    margin-top: 10%;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685465886579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n .card {\n     text-align: center;\n     margin: 0 auto;\n     margin-top: 10%;\n+    border: 1px solid #fff;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685465921597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,12 @@\n     margin: 0;\n     padding: 0;\n }\n \n+body {\n+    background-color: #f2f2f2;\n+}\n+\n .card {\n     text-align: center;\n     margin: 0 auto;\n     margin-top: 10%;\n"
+                },
+                {
+                    "date": 1685465990245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     padding: 0;\n }\n \n body {\n-    background-color: #f2f2f2;\n+    background-color: lightgray\n }\n \n .card {\n     text-align: center;\n"
+                },
+                {
+                    "date": 1685466085090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     padding: 0;\n }\n \n body {\n-    background-color: lightgray\n+    background-color: #d2e1f1\n }\n \n .card {\n     text-align: center;\n"
+                },
+                {
+                    "date": 1685466133867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n     text-align: center;\n     margin: 0 auto;\n     margin-top: 10%;\n     border: 1px solid #fff;\n+    width: 288px;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685466140662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,10 @@\n     text-align: center;\n     margin: 0 auto;\n     margin-top: 10%;\n     border: 1px solid #fff;\n-    width: 288px;\n+    width: 300px;\n+    height: 300px;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685466160825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     margin: 0 auto;\n     margin-top: 10%;\n     border: 1px solid #fff;\n     width: 300px;\n-    height: 300px;\n+    height: 500px;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685466170308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     text-align: center;\n     margin: 0 auto;\n     margin-top: 10%;\n     border: 1px solid #fff;\n-    width: 300px;\n+    width: 330px;\n     height: 500px;\n }\n \n .card img {\n"
+                },
+                {
+                    "date": 1685466198452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,5 +18,6 @@\n \n .card img {\n     width: 288px;\n     height: 288px;\n+    margin-top: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466230659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n     text-align: center;\n     margin: 0 auto;\n     margin-top: 10%;\n     border: 1px solid #fff;\n+    border-radius: 25%;\n     width: 330px;\n     height: 500px;\n }\n \n"
+                },
+                {
+                    "date": 1685466236711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     text-align: center;\n     margin: 0 auto;\n     margin-top: 10%;\n     border: 1px solid #fff;\n-    border-radius: 25%;\n+    border-radius: 10%;\n     width: 330px;\n     height: 500px;\n }\n \n"
+                },
+                {
+                    "date": 1685466242929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     text-align: center;\n     margin: 0 auto;\n     margin-top: 10%;\n     border: 1px solid #fff;\n-    border-radius: 10%;\n+    border-radius: 5%;\n     width: 330px;\n     height: 500px;\n }\n \n"
+                },
+                {
+                    "date": 1685466254358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n     margin: 0 auto;\n     margin-top: 10%;\n     border: 1px solid #fff;\n     border-radius: 5%;\n+    background-color: #fff;\n     width: 330px;\n     height: 500px;\n }\n \n"
+                },
+                {
+                    "date": 1685466268490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,6 +20,8 @@\n \n .card img {\n     width: 288px;\n     height: 288px;\n+    border-radius: 5%;\n+    background-color: #fff;\n     margin-top: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466285952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,9 @@\n     height: 288px;\n     border-radius: 5%;\n     background-color: #fff;\n     margin-top: 20px;\n+}\n+\n+.card p {\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466295149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,6 +26,6 @@\n     margin-top: 20px;\n }\n \n .card p {\n-    \n+    margin-top: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466302478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,7 +25,11 @@\n     background-color: #fff;\n     margin-top: 20px;\n }\n \n+.card h3 {\n+    \n+}\n+\n .card p {\n     margin-top: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466310740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     margin-top: 20px;\n }\n \n .card h3 {\n-    \n+    margin-top: 1rem;\n }\n \n .card p {\n     margin-top: 20px;\n"
+                },
+                {
+                    "date": 1685466338377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     margin-top: 10%;\n     border: 1px solid #fff;\n     border-radius: 5%;\n     background-color: #fff;\n-    width: 330px;\n+    width: 320px;\n     height: 500px;\n }\n \n .card img {\n@@ -30,6 +30,6 @@\n     margin-top: 1rem;\n }\n \n .card p {\n-    margin-top: 20px;\n+    margin-top: 1rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466355624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     width: 288px;\n     height: 288px;\n     border-radius: 5%;\n     background-color: #fff;\n-    margin-top: 20px;\n+    margin-top: 1rem;\n }\n \n .card h3 {\n     margin-top: 1rem;\n"
+                },
+                {
+                    "date": 1685466375922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,5 +31,6 @@\n }\n \n .card p {\n     margin-top: 1rem;\n+    width: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466391715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,6 +31,6 @@\n }\n \n .card p {\n     margin-top: 1rem;\n-    width: ;\n+    width: 256pxl;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466404151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,6 +31,7 @@\n }\n \n .card p {\n     margin-top: 1rem;\n-    width: 256pxl;\n+    width: 256px;\n+    height: 57;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466409952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,6 +32,7 @@\n \n .card p {\n     margin-top: 1rem;\n     width: 256px;\n-    height: 57;\n+    height: 57px;\n+    text-align: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466419462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,9 @@\n }\n \n .card p {\n     margin-top: 1rem;\n+    margin: 0 auto;\n     width: 256px;\n     height: 57px;\n     text-align: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466443720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,11 @@\n     margin-top: 1rem;\n }\n \n .card p {\n+    margin: 0 auto;\n     margin-top: 1rem;\n-    margin: 0 auto;\n+    color: ;\n     width: 256px;\n     height: 57px;\n     text-align: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466457323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n \n .card p {\n     margin: 0 auto;\n     margin-top: 1rem;\n-    color: ;\n+    color: #7d889e;\n     width: 256px;\n     height: 57px;\n     text-align: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685466492301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n     margin-top: 1rem;\n }\n \n .card h3 {\n+    color: #1f3f1f;\n     margin-top: 1rem;\n }\n \n .card p {\n"
+                },
+                {
+                    "date": 1685466507084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     margin-top: 1rem;\n }\n \n .card h3 {\n-    color: #1f3f1f;\n+    color: #1f314f;\n     margin-top: 1rem;\n }\n \n .card p {\n"
+                },
+                {
+                    "date": 1685466519726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n }\n \n .card h3 {\n     color: #1f314f;\n+    font-weight: 700;\n     margin-top: 1rem;\n }\n \n .card p {\n"
+                },
+                {
+                    "date": 1685466566219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n }\n \n .card h3 {\n     color: #1f314f;\n+    font-family: sans-serif;\n     font-weight: 700;\n     margin-top: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1685466615087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n .card h3 {\n     color: #1f314f;\n     font-family: sans-serif;\n     font-weight: 700;\n+    font-size: 22px;\n     margin-top: 1rem;\n }\n \n .card p {\n"
+                },
+                {
+                    "date": 1685466635661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     margin-top: 10%;\n     border: 1px solid #fff;\n     border-radius: 5%;\n     background-color: #fff;\n-    width: 320px;\n+    width: 350px;\n     height: 500px;\n }\n \n .card img {\n"
+                },
+                {
+                    "date": 1685466642776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     margin-top: 10%;\n     border: 1px solid #fff;\n     border-radius: 5%;\n     background-color: #fff;\n-    width: 350px;\n+    width: 320px;\n     height: 500px;\n }\n \n .card img {\n"
+                },
+                {
+                    "date": 1685466654646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,8 @@\n .card h3 {\n     color: #1f314f;\n     font-family: sans-serif;\n     font-weight: 700;\n-    font-size: 22px;\n     margin-top: 1rem;\n }\n \n .card p {\n"
+                },
+                {
+                    "date": 1685466679950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n     padding: 0;\n }\n \n body {\n-    background-color: #d2e1f1\n+    background-color: #d2e1f1;\n+    font-family: sans-serif;\n }\n \n .card {\n     text-align: center;\n"
+                },
+                {
+                    "date": 1685466784246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n }\n \n .card h3 {\n     color: #1f314f;\n-    font-family: sans-serif;\n+    width: 288px;\n     font-weight: 700;\n     margin-top: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1685466795480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n \n .card h3 {\n     color: #1f314f;\n     width: 288px;\n+    height: 129px;\n     font-weight: 700;\n     margin-top: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1685466801490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,8 @@\n \n .card h3 {\n     color: #1f314f;\n     width: 288px;\n-    height: 129px;\n     font-weight: 700;\n     margin-top: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1685466808388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n \n .card h3 {\n     color: #1f314f;\n     width: 288px;\n+    margin: 0 auto;\n     font-weight: 700;\n     margin-top: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1685466823730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,8 @@\n }\n \n .card h3 {\n     color: #1f314f;\n-    width: 288px;\n-    margin: 0 auto;\n     font-weight: 700;\n     margin-top: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1685466847011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n \n body {\n     background-color: #d2e1f1;\n     font-family: sans-serif;\n+    font-size: 1rem;\n }\n \n .card {\n     text-align: center;\n"
+                },
+                {
+                    "date": 1685466865238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n body {\n     background-color: #d2e1f1;\n     font-family: sans-serif;\n-    font-size: 1rem;\n+    font-size: 1.2rem;\n }\n \n .card {\n     text-align: center;\n"
+                },
+                {
+                    "date": 1685466876024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n body {\n     background-color: #d2e1f1;\n     font-family: sans-serif;\n-    font-size: 1.2rem;\n+    font-size: 1rem;\n }\n \n .card {\n     text-align: center;\n"
+                },
+                {
+                    "date": 1685466931130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     border: 1px solid #fff;\n     border-radius: 5%;\n     background-color: #fff;\n     width: 320px;\n-    height: 500px;\n+    height: 497px;\n }\n \n .card img {\n     width: 288px;\n"
+                },
+                {
+                    "date": 1685466956919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,9 @@\n .card h3 {\n     color: #1f314f;\n     font-weight: 700;\n     margin-top: 1rem;\n+    height: 288px;\n }\n \n .card p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1685466979700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n .card h3 {\n     color: #1f314f;\n     font-weight: 700;\n     margin-top: 1rem;\n-    height: 288px;\n+    border: 1px solid yellow;\n }\n \n .card p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1685466992127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,9 @@\n .card h3 {\n     color: #1f314f;\n     font-weight: 700;\n     margin-top: 1rem;\n+    width: 200px;\n     border: 1px solid yellow;\n }\n \n .card p {\n"
+                },
+                {
+                    "date": 1685467002796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n .card h3 {\n     color: #1f314f;\n     font-weight: 700;\n     margin-top: 1rem;\n-    width: 200px;\n+    width: 250px;\n     border: 1px solid yellow;\n }\n \n .card p {\n"
+                },
+                {
+                    "date": 1685467014210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n     color: #1f314f;\n     font-weight: 700;\n     margin-top: 1rem;\n     width: 250px;\n+    margin: 0 auto;\n     border: 1px solid yellow;\n }\n \n .card p {\n"
+                },
+                {
+                    "date": 1685467022317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,11 +30,12 @@\n \n .card h3 {\n     color: #1f314f;\n     font-weight: 700;\n-    margin-top: 1rem;\n+  \n     width: 250px;\n     margin: 0 auto;\n+    margin-top: 1rem;\n     border: 1px solid yellow;\n }\n \n .card p {\n"
+                },
+                {
+                    "date": 1685467033676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,13 +30,11 @@\n \n .card h3 {\n     color: #1f314f;\n     font-weight: 700;\n-  \n     width: 250px;\n     margin: 0 auto;\n     margin-top: 1rem;\n-    border: 1px solid yellow;\n }\n \n .card p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1685467082564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n .card {\n     text-align: center;\n     margin: 0 auto;\n-    margin-top: 10%;\n+    margin-top: 20%;\n     border: 1px solid #fff;\n     border-radius: 5%;\n     background-color: #fff;\n     width: 320px;\n"
+                },
+                {
+                    "date": 1685467092394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n .card {\n     text-align: center;\n     margin: 0 auto;\n-    margin-top: 20%;\n+    margin-top: 10%;\n     border: 1px solid #fff;\n     border-radius: 5%;\n     background-color: #fff;\n     width: 320px;\n"
+                }
+            ],
+            "date": 1685465483291,
+            "name": "Commit-0",
+            "content": "* {\n    margin: 0;\n}"
+        }
+    ]
+}
