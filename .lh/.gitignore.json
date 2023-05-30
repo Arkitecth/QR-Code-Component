@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".gitignore",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1685467222274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1685467222274,
+            "name": "Commit-0",
+            "content": "# Avoid accidental upload of the Sketch and Figma design files\n#####################################################\n## Please do not remove lines 5 and 6 - thanks! 🙂 ##\n#####################################################\n*.sketch\n*.fig\n\n# Avoid accidental XD upload if you convert the design file\n###############################################\n## Please do not remove line 12 - thanks! 🙂 ##\n###############################################\n*.xd\n\n# Avoid your project being littered with annoying .DS_Store files!\n.DS_Store\n.prettierignore\nREADME-template.md"
+        }
+    ]
+}
